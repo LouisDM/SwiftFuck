@@ -9,7 +9,7 @@
 import UIKit
 
 class WebViewController: UIViewController,UIWebViewDelegate {
-    //遵守不了NJKWebViewProgressDelegate tell me why?
+    //遵守不了NJKWebViewProgressDelegate tell me why?大神fork一下
     let _webview = UIWebView()
     let _progressView = NJKWebViewProgressView()
     let _progressProxy = NJKWebViewProgress()
